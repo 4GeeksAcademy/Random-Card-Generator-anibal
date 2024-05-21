@@ -1,1 +1,37 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: rgb(4, 158, 4);
+  margin: 200px;
+}
+.carta {
+  text-align: center;
+  background-color: white;
+  width: 250px;
+  height: 350px;
+  margin: auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  font-size: 90px;
+  border: 1px solid black;
+}
+.simboloSup {
+  font-size: 80px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.simboloInfe {
+  font-size: 80px;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 15px;
+  rotate: 180deg;
+}
+
+.numero {
+  display: flex;
+  align-items: center;
+}
